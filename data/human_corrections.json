@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "HC-INV-A-001",
+      "type": "HumanCorrection",
+      "invoiceId": "INV-A-001",
+      "vendor": "Supplier GmbH",
+      "approved": true,
+      "learnedRules": [
+        {
+          "rule": "Leistungsdatum → serviceDate",
+          "value": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "HC-INV-A-003",
+      "type": "HumanCorrection",
+      "invoiceId": "INV-A-003",
+      "vendor": "Supplier GmbH",
+      "approved": true,
+      "learnedRules": [
+        {
+          "rule": "Infer PO from vendor + item match",
+          "value": "PO-A-051"
+        },
+        {
+          "rule": "Leistungsdatum → serviceDate",
+          "value": "2024-01-20"
+        }
+      ]
+    },
+    {
+      "id": "HC-INV-B-003",
+      "type": "HumanCorrection",
+      "invoiceId": "INV-B-003",
+      "vendor": "Parts AG",
+      "approved": true,
+      "learnedRules": [
+        {
+          "rule": "Currency inferred from rawText",
+          "value": "EUR"
+        }
+      ]
+    },
+    {
+      "id": "HC-INV-C-002",
+      "type": "HumanCorrection",
+      "invoiceId": "INV-C-002",
+      "vendor": "Freight & Co",
+      "approved": true,
+      "learnedRules": [
+        {
+          "rule": "Description → SKU mapping",
+          "value": "FREIGHT"
+        }
+      ]
+    }
+  ]
+}

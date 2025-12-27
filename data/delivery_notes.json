@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": "DN-A-123",
+      "type": "DeliveryNote",
+      "vendor": "Supplier GmbH",
+      "poNumber": "PO-A-050",
+      "properties": {
+        "date": "2024-01-10"
+      }
+    },
+    {
+      "id": "DN-A-124",
+      "type": "DeliveryNote",
+      "vendor": "Supplier GmbH",
+      "poNumber": "PO-A-051",
+      "properties": {
+        "date": "2024-01-22"
+      }
+    },
+    {
+      "id": "DN-B-205",
+      "type": "DeliveryNote",
+      "vendor": "Parts AG",
+      "poNumber": "PO-B-110",
+      "properties": {
+        "date": "2024-02-03"
+      }
+    },
+    {
+      "id": "DN-B-206",
+      "type": "DeliveryNote",
+      "vendor": "Parts AG",
+      "poNumber": "PO-B-111",
+      "properties": {
+        "date": "2024-03-02"
+      }
+    },
+    {
+      "id": "DN-C-301",
+      "type": "DeliveryNote",
+      "vendor": "Freight & Co",
+      "poNumber": "PO-C-900",
+      "properties": {
+        "date": "2024-03-02"
+      }
+    },
+    {
+      "id": "DN-C-302",
+      "type": "DeliveryNote",
+      "vendor": "Freight & Co",
+      "poNumber": "PO-C-901",
+      "properties": {
+        "date": "2024-03-18"
+      }
+    }
+  ]
+}

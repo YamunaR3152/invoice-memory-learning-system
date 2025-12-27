@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "INV-A-001",
+      "type": "Invoice",
+      "vendor": "Supplier GmbH",
+      "properties": {
+        "invoiceNumber": "INV-2024-001",
+        "invoiceDate": "2024-01-12",
+        "serviceDate": null,
+        "currency": "EUR",
+        "netTotal": 2500.0,
+        "taxRate": 0.19,
+        "taxTotal": 475.0,
+        "grossTotal": 2975.0,
+        "confidence": 0.78
+      }
+    },
+    {
+      "id": "INV-A-002",
+      "type": "Invoice",
+      "vendor": "Supplier GmbH",
+      "properties": {
+        "invoiceNumber": "INV-2024-002",
+        "invoiceDate": "2024-01-18",
+        "serviceDate": null,
+        "currency": "EUR",
+        "netTotal": 2375.0,
+        "grossTotal": 2826.25,
+        "confidence": 0.72
+      }
+    },
+    {
+      "id": "INV-A-003",
+      "type": "Invoice",
+      "vendor": "Supplier GmbH",
+      "properties": {
+        "invoiceNumber": "INV-2024-003",
+        "invoiceDate": "2024-01-25",
+        "serviceDate": null,
+        "currency": "EUR",
+        "netTotal": 500.0,
+        "grossTotal": 595.0,
+        "confidence": 0.69
+      }
+    },
+    {
+      "id": "INV-A-004",
+      "type": "Invoice",
+      "vendor": "Supplier GmbH",
+      "properties": {
+        "invoiceNumber": "INV-2024-003",
+        "invoiceDate": "2024-01-26",
+        "confidence": 0.63,
+        "possibleDuplicate": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "INV-A-004",
+      "to": "INV-A-003",
+      "relation": "DUPLICATE_OF"
+    }
+  ]
+}
