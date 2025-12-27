@@ -1,4 +1,4 @@
-/* please press ctrl + shift + v for readme review */
+/* please press ctrl + shift + v for readme review if you want to see it cleanly in vs code */
 # Invoice Memory Learning System
 
 **AI Agent Development Internship – Flowbit Private Limited**
@@ -251,6 +251,7 @@ Remain safe, explainable, and auditable
 Persist knowledge across executions
 
 The architecture is intentionally simple, extensible, and production-ready, making it suitable for real-world enhancement and scaling.
+
 
 
 
